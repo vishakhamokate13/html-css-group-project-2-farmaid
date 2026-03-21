@@ -1,3 +1,50 @@
-.body{
-    color: lightseagreen;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #d4fc79, #96e6a1);
 }
+.issue-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    padding: 30px;
+    gap: 20px;
+}
+.issue-card {
+    background: white;
+    border-radius: 15px;
+    height: 200px;
+    padding: 10px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+.icon {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #2e7d32;
+}
+.content {
+    padding: 10px;
+}
+.content h2 {
+    color: #1b5e20;
+    font-size: 20px;
+}
+.content p {
+    font-size: 15px;
+    margin: 4px 0;
+}
+.next-section {
+    text-align: center;
+    margin: 30px;
+}
+.next-section a {
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #1b5e20, #4caf50);
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+
+

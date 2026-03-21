@@ -1,3 +1,59 @@
-.h1{
-    color: blue;
+.main-container{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+background:linear-gradient(135deg, #1E88E5 0%,#aec795 100%);
+box-shadow: 0 4px 12px rgba(23, 19, 19, 0.1);
+
+margin-top: 5px;
+
+
+
+}
+.lmg-contanair{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+
+.main-logo-img{
+
+    height: 80px;
+     width: 80px;
+
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.farm{
+    
+    font-weight: 600;
+    font-size: 28px;
+    font-family:'poppins',sans-serif;
+    color: #333;
+}
+.aid{
+    font-size: 28px;
+    color:rgb(98, 38, 8);
+    font-weight: 600;
+    font-family:'poppins',sans-serif;
+}
+.menu{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 1000;
+}
+.lgin{
+    background-color: rgb(196, 149, 56);
+    border-radius: 30px;
+    padding: 8px;
+    
 }
