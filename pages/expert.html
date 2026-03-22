@@ -29,24 +29,25 @@
     <div class="main-heroo-section">
         <div class="main-button">
             <p type="text" class="main-btnn"> <a href="#experts"> Search Experts </a> </p>
-            <p type="text" class="main-btnn"> <a href="#bookappointment"> Book Appointment </a></p>
+            <p type="text" class="main-btnn"> <a href="#appointment"> Book Appointment </a></p>
             <p type="text" class="main-btnn" /> <a href="#Ask"> Get Advice</a>
         </div>
         <!--main section-->
-  
-  <div class="main-containerr">
-          <img src="./../images/farmerimg.jpg" height="350px" width="550px" alt="farmer" class="farmer"/>
- <div class="main-heading" >
-      <h1 style="color:white;  text-align: left; margin-left: 20px;"> Healthy Crops, Happy Farmers </h1>
 
-            <h1 class="main-heading-1"> Agricultural Consulting </h1>
-            <span class="main-heading"> Get Expert Advice for Your Farm </span>
-            <span class="main-heading-2"> Connect with certified agriculture experts anytime </span>
-            <span class="main-heading-2"> Farmer-to-expert consultation provides tailored agricultural advice, including
-                pest management,
-                crop selection, soil health, and financial planning to increase </span>
+        <div class="main-containerr">
+            <img src="./../images/farmerimg.jpg" height="350px" width="550px" alt="farmer" class="farmer" />
+            <div class="main-heading">
+                <h1 style="color:white;  text-align: left; margin-left: 20px;"> Healthy Crops, Happy Farmers </h1>
+
+                <h1 class="main-heading-1"> Agricultural Consulting </h1>
+                <span class="main-heading"> Get Expert Advice for Your Farm </span>
+                <span class="main-heading-2"> Connect with certified agriculture experts anytime </span>
+                <span class="main-heading-2"> Farmer-to-expert consultation provides tailored agricultural advice,
+                    including
+                    pest management,
+                    crop selection, soil health, and financial planning to increase </span>
+            </div>
         </div>
-    </div>
     </div>
 
     <!-- Expert section -->
@@ -96,27 +97,86 @@
             </div>
             </div>
         
-        <div class=" form-section">
-                    <div class="farm-image">
-                        <span class="form-heading-1" id="Ask">
+      
+<div class=" container" id="appointment">
+                    <h2 class="h2"> Book Appointment </h2>
+                    <hr />
+                    <form>
+                        <div class="row">
+                            <input type="text" placeholder="Enter Name :" class="input" required />
+                            <input type="text" class="input" for="entercity" placeholder="Enter City/village:"
+                                required />
 
-                            <img src="./../images/call-191-svgrepo-com (1).png" class="call-image" height="50px"
-                                width="50px" alt="call" class="consult-img" /> Get Expert Advice </span>
-                    </div>
-            <div class="consult-info" id="bookappointment">
-                <p class="consult-infoo"> <img src="./../images/Agricultural-Consulting-1.png" height="50px"
-                        width="50px" alt="consult image" class="consult-infoo" />
-                    Agricultural Consulting </p>
-                <p class="consult-2"> Agricon Nutritech, our Agricultural Consulting service is designed to empower
-                    farmers
-                    with the knowledge and strategies needed to maximize crop yields and improve soil health.
-                    Our expert consultants work closely with you to develop personalized plans that address your
-                    specific challenges, from crop selection and pest management to irrigation and sustainable
-                    farming practices. With our guidance, you’ll be equipped to make informed decisions that
-                    enhance productivity and sustainability on your farm. </p>
-            </div>
+                            <input placeholder="Enter Mobile Number :" type="tel" id="enter mobile number" class="input"
+                                type="number" required />
+
+                        </div>
+                        <br />
+                        <div class="row">
+                            <label>Doctor</label>
+                            <input list="Choosedr" required />
+                            <datalist id="Choosedr">
+
+                                <option>Dr. Echan</option>
+                                <option>Dr. Meena Sharma</option>
+                                <option>Dr.Raj Vikhe</option>
+                                <option>Dr. Rajesh Patil</option>
+                            </datalist>
+                            <br />
+                            <div class="row">
+                                <label>Appointment Date</label>
+                                <input type="date" class="input" required />
+                                <br />
+                                <br />
+                                <label> Timing</label>
+                                <input list="Choosetime" required />
+                                <datalist id="Choosetime">
+                                    < <option> Timing </option>
+                                        <option> 9:00 AM </option>
+                                        <option> 10:00 AM </option>
+                                        <option> 11:00 AM </option>
+                                        <option> 1:00 PM </option>
+                                        <option> 2:00 PM </option>
+                                        <option> 3:00 PM </option>
+                                        <option> 4:00 PM </option>
+                                        <option> 5:00 PM </option>
+                                </datalist>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="row">
+                            <a href="upi://pay?pa=cinema@upi&pn=complex%20Cinema&cu=INR" target="_blank">
+                                <b> Click here to pay via UPI 50Rs for conform appointment</b>
+                                <br />
+                                <br />
+                                <label for="photo"> Upload Your Payment Photo :</label>
+                                <input type="file" id="photo" accept="image/*" required />
+                            </a>
+                            <button class="confirm-btn">Confirm Date and Time</button>
+
+                            <button type="submit" class="confirm-btn"> Submit </button>
+                        </div>
+                        <div class="feedback">
+                            <h2 class="h2"> Feedback</h2>
+                            <label for="fileinput"> upload audio : </label>
+                            <input type="file" id="fileinput" accept="audio/*" required />
+                            <br /> <br />
+                            <label for="fileinput"> upload pdf :</label>
+                            <input type="file" accept="application/pdf" required />
+                            <br /> <br />
+                            <label for="fileinput"> upload video : </label>
+                            <input type="file" id="fileinput" accept="video/*" required />
+                            <br /> 
+                            
+                            <br /> 
+                        </div>
+
+                    </form>
         </div>
-    </div>   
+    </div>
+
 
 </body>
+
 </html>
