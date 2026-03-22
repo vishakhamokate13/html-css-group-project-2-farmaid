@@ -1,3 +1,108 @@
-body{
-    background-color: aquamarine;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-hero-section{
+    background-image: url(./../images/farmer-home-img2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    opacity: 0.9;
+    padding-left: 10px;
+    padding-bottom: 80px;
+
+}
+.wlcome-heading{
+
+   font-family:'poppins',sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: rgb(9, 61, 96);
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.sub-heading{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: 'poppins',sans-serif;
+}
+.para1{
+    padding-bottom: 80px;
+    font-size: 20px;
+     padding-left: 10px;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+    color: navy;
+}
+.issue-btn{
+margin-left: 50px;
+}
+.weather-btn{
+    margin-left: 50px;
+    
+}
+.btns{
+    margin-left: 40px;
+    
+}
+.issue-btn{
+  background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
+}
+
+.issue-btn {
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(24, 22, 22);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  display: inline;
+  outline: none;
+  border: none;
+  margin-right: 30px;
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.issue-btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.weather-btn{
+  background-image: linear-gradient(to right, #c1c5b1 0%, #3e1dd5 51%, #414d0b 100%);
+}
+
+.weather-btn {
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(8, 7, 7);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  display: inline;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.weather-btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.clicable-btn{
+    text-decoration: none;
 }
