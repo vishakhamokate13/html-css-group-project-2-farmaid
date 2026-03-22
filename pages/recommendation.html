@@ -1,173 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Recommendation</title>
+    <title>Smart Recommendations</title>
     <link rel="stylesheet" href="./../css/recommendation.css">
 </head>
 <body>
-    <header>
-        <h1>🌿 Smart Recommendation Crop Solutions</h1>
-        <p>Get the best solutions and fertilizers for farm problems</p>
-    </header>
+    <div class="nav-menu">
+            <a href="./index.html" class="menu">Home</a>
+            <a href="./about.html" class="menu">About</a>
+            <a href="./farmissue.html" class="menu">Farm Issues</a>
+            <a href="./recommendation.html" class="menu">Recommendations</a>
+            <a href="./weather.html" class="menu">Weather</a>
+            <a href="./expert.html"class="menu">Experts</a>
+            <a href="./contact.html" class="menu">Contact</a>
 
-    <section class="issue-container">
+            <a href="./contact.html"class="menu" ><span class="lgin">Login</span></a>
 
-      <div class="issue-card">
-        <div class="icon"><i class=""></i></div>
-        <div class="content">
-            <h2>Leaf Spot</h2>
-            <p><b>Crop:</b> Tomato</p>
-            <p><b>Solution:</b> Remove infected leaves and spray fungicide.</p>
-            <p><b>Fertilizer:</b> NPK (10-10-10)</p>
         </div>
+        
+
+    <div class="main">
+
+    <h1>Smart Recommendations for Your Farm</h1>
+    <p class="subtitle">Based on conditions, we suggest crops, fertilizers, 
+        and care tips.</p>
+
+    <h3>Soil Summary</h3>
+    <div class="grid small">
+        <div class="box"><i class="fas fa-vial"></i><p>pH Level<br><b>6.8</b></p></div>
+        <div class="box"><i class="fas fa-leaf"></i><p>Nitrogen<br><b>Low</b></p></div>
+        <div class="box"><i class="fas fa-tint"></i><p>Moisture<br><b>Moderate</b></p></div>
+        <div class="box"><i class="fas fa-seedling"></i><p>Soil Health<br><b>Good</b></p></div>
     </div>
 
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-bug"></i></div>
-        <div class="content">
-            <h2>Pest Attack</h2>
-            <p><b>Crop:</b> Vegetables</p>
-            <p><b>Solution:</b> Use neem oil spray.</p>
-            <p><b>Fertilizer:</b> Organic compost</p>
+    <h3>Recommended Crop</h3>
+    <div class="grid">
+
+        <div class="card">
+            <i class="fas fa-wheat-awn icon"></i>
+            <h4>Wheat</h4>
+            <p>current soil moisture and temperature</p>
+            <button>View Details</button>
         </div>
+
+        <div class="card">
+            <i class="fas fa-seedling icon"></i>
+            <h4>Rice</h4>
+            <p>Best for moderate water conditions</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-leaf icon"></i>
+            <h4>Cotton</h4>
+            <p>Grows well in warm climates</p>
+            <button>View Details</button>
+        </div>
+
+    </div>
+    <h3>Recommended Fertilizer</h3>
+    <div class="grid">
+
+        <div class="card">
+            <i class="fas fa-bag-shopping icon"></i>
+            <h4>NPK</h4>
+            <p>Improves nitrogen deficiency</p>
+            <p>₹450 / bag</p>
+            <button class="buy">Apply / Buy</button>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-flask icon"></i>
+            <h4>Urea</h4>
+            <p>Boosts nitrogen level</p>
+            <p>₹450 / bag</p>
+            <button class="buy">Apply / Buy</button>
+        </div>
+
+    </div>
+    <h3>Why These Recommendations</h3>
+    <div class="grid small">
+        <div class="box"><i class="fas fa-seedling"></i><p>Based on Soil</p></div>
+        <div class="box"><i class="fas fa-tint"></i><p>Based on Moisture</p></div>
+        <div class="box"><i class="fas fa-cloud-sun"></i><p>Based on Weather</p></div>
     </div>
 
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-seedling"></i></div>
-        <div class="content">
-            <h2>Yellow Leaves</h2>
-            <p><b>Crop:</b> Rice</p>
-            <p><b>Solution:</b> Add nitrogen to soil.</p>
-            <p><b>Fertilizer:</b> Urea</p>
-        </div>
+    <h3>Seasonal Tips</h3>
+    <div class="grid small">
+        <div class="box"><i class="fas fa-clock"></i><p>Water crops early morning</p></div>
+        <div class="box"><i class="fas fa-cloud-rain"></i><p>Avoid spraying before rain</p></div>
+        <div class="box"><i class="fas fa-chart-line"></i><p>Monitor soil regularly</p></div>
     </div>
 
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-spa"></i></div>
-        <div class="content">
-            <h2>Fungal Infection</h2>
-            <p><b>Crop:</b> Grapes</p>
-            <p><b>Solution:</b> Spray fungicide.</p>
-            <p><b>Fertilizer:</b> Potash</p>
-        </div>
-    </div>
+    <button class="main-btn">Get Expert Advice</button>
+    
 
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-water"></i></div>
-        <div class="content">
-            <h2>Root Rot</h2>
-            <p><b>Crop:</b> Onion</p>
-            <p><b>Solution:</b> Improve drainage.</p>
-            <p><b>Fertilizer:</b> Vermicompost</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-cut"></i></div>
-        <div class="content">
-            <h2>Weeds</h2>
-            <p><b>Crop:</b> Wheat</p>
-            <p><b>Solution:</b> Remove weeds manually.</p>
-            <p><b>Fertilizer:</b> Nitrogen fertilizer</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-tint"></i></div>
-        <div class="content">
-            <h2>Overwatering</h2>
-            <p><b>Crop:</b> All</p>
-            <p><b>Solution:</b> Reduce watering.</p>
-            <p><b>Fertilizer:</b> Balanced NPK</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-sun"></i></div>
-        <div class="content">
-            <h2>Drought</h2>
-            <p><b>Crop:</b> Corn</p>
-            <p><b>Solution:</b> Use drip irrigation.</p>
-            <p><b>Fertilizer:</b> Organic manure</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-mountain"></i></div>
-        <div class="content">
-            <h2>Soil Salinity</h2>
-            <p><b>Crop:</b> Rice</p>
-            <p><b>Solution:</b> Flush soil with water.</p>
-            <p><b>Fertilizer:</b> Gypsum</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-chart-line"></i></div>
-        <div class="content">
-            <h2>Low Yield</h2>
-            <p><b>Crop:</b> All</p>
-            <p><b>Solution:</b> Improve soil nutrients.</p>
-            <p><b>Fertilizer:</b> Compost + NPK</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-bug"></i></div>
-        <div class="content">
-            <h2>Stem Borer</h2>
-            <p><b>Crop:</b> Rice</p>
-            <p><b>Solution:</b> Use insecticide.</p>
-            <p><b>Fertilizer:</b> Urea + Potash</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-wind"></i></div>
-        <div class="content">
-            <h2>Leaf Curl</h2>
-            <p><b>Crop:</b> Chili</p>
-            <p><b>Solution:</b> Control insects.</p>
-            <p><b>Fertilizer:</b> Micronutrients</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-cloud"></i></div>
-        <div class="content">
-            <h2>Blight</h2>
-            <p><b>Crop:</b> Potato</p>
-            <p><b>Solution:</b> Apply fungicide.</p>
-            <p><b>Fertilizer:</b> Potassium</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-apple-alt"></i></div>
-        <div class="content">
-            <h2>Fruit Rot</h2>
-            <p><b>Crop:</b> Tomato</p>
-            <p><b>Solution:</b> Avoid excess water.</p>
-            <p><b>Fertilizer:</b> Calcium nitrate</p>
-        </div>
-    </div>
-
-    <div class="issue-card">
-        <div class="icon"><i class="fas fa-leaf"></i></div>
-        <div class="content">
-            <h2>Wilting</h2>
-            <p><b>Crop:</b> Brinjal</p>
-            <p><b>Solution:</b> Use resistant seeds.</p>
-            <p><b>Fertilizer:</b> Organic compost</p>
-        </div>
-    </div>
-
-</section>
-
-<div class="next-section">
-    <a href="farmissue.html">← Back to Issues</a>
 </div>
-
-
+    
 </body>
 </html>
