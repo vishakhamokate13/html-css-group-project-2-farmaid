@@ -407,58 +407,101 @@ body {
     background-image: linear-gradient(to right, #c1c5b1 0%, #3e1dd5 59%, #414d0b 100%);
     color: white;
 }
-
-
-
-@media screen and (max-width: 768px) {
+/* 📱 Mobile View */
+@media (max-width: 600px) {
 
     .main-heroo-section {
-        width: 100px;
+        width: 100%;          
+        height: auto;
     }
 
     .main-button {
-        width: 290px;
-        margin-left: 40px;
+        width: 90%;
+        margin-left: 0;
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
 
-        .farmer {
-            margin-top: 40px;
-            border-radius: 18px;
-        }
+    .main-containerr {
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-heading{
+        font-size: 16px;
+        flex-wrap: wrap;
+    }
 
-        .farmer:hover {
-            box-shadow: 0px 4px 8px rgba(157, 245, 153, 0.78);
-            border: solid rgb(6, 82, 6);
-            color: white;
-            transition: 3s;
-        }
+    .main-heading-1 {
+        font-size: 25px;
+    }
 
-        .main-containerr {
+    .main-heading-2 {
+        width: 90%;
+        font-size: 16px;
+    }
 
-        }
-        
+    .expert-container {
+        flex-direction: column;   
+        align-items: center;
+    }
 
-        .main-heading {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 5px;
-            color: white;
-            flex-wrap: wrap;
-        }
+    .expert-card {
+        width: 75%;
+        height: auto;
+        padding-left: 10px;
+    }
+    
 
-        .main-heading-1 {
-            font-size: 10px;
-            flex-wrap: wrap;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
+    .consult-info {
+        margin-left: 0;
+        width: 90%;
+        text-align: center;
+    }
 
-        .main-heading-2 {
+    .container {
+        width: 90%;
+        margin-left: 0;
+    }
 
-            color: white;
-            flex-wrap: wrap;
-        }
+    .row {
+        flex-direction: column;   /* form inputs niche */
+    }
 
-        .expert-container {
-            
-            width: 20px;
-        }
+    .btns {
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
 
+    .main-heroo-section {
+        width: 100%;
+    }
+
+    .main-button {
+        width: 95%;
+        margin-left: 0;
+    }
+
+    .expert-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .expert-card {
+        width: 45%;
+    }
+
+    .container {
+        width: 95%;
+        margin-left: 0;
+    }
+
+    .consult-info {
+        margin-left: 0;
+        width: 90%;
+        text-align: center;
+    }
+}
 
