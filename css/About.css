@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI';
-    background-color: #eff0eb;
+    background:linear-gradient(135deg,#d4fc79,#96e6a1);
 }
 .main-container {
     display: flex;
@@ -61,7 +61,7 @@ body {
     margin-top: 30px;
 }
 .vm-card {
-    background-color: #F8F3E1;
+    background-color: #FFFAEC;
     padding: 25px;
     border-radius: 15px;
     transition: 0.3s;
@@ -83,7 +83,7 @@ body {
 }
 
 .vm-list li::before {
-    content: "✔ ";
+    
     color: green;
 }
 .about-info {
@@ -99,7 +99,7 @@ body {
 }
 
 .feature-card {
-   background-color: #F7F1DE;
+     background-color: #FFFAEC;
     border-radius: 15px;
     overflow: hidden;
     min-height: 350px;
@@ -121,7 +121,7 @@ body {
 .stats {
     display: flex;
     justify-content: space-around;
-    background: #F7F1DE;
+     background-color: #FFFAEC;
     padding: 30px;
 }
 .stat {
@@ -136,7 +136,7 @@ body {
 }
 
 .service-card {
-    background-color:  #F7F1DE;;
+     background-color: #FFFAEC;
     padding: 15px;
     border-radius: 15px;
 
@@ -203,7 +203,7 @@ body {
 }
 
 .team-card {
-    background-color: #F5FBE6;
+     background-color: #FFFAEC;
     padding: 20px;
     border-radius: 12px;
     width: 220px;

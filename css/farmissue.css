@@ -7,8 +7,17 @@ body {
 header {
     text-align: center;
     padding: 30px;
-    background: linear-gradient(to right, #bdedbf, #d8e2d8);
-    color: white;
+    color:black;
+}
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-title img {
+    width: 45px;
 }
 
 .intro {
@@ -107,14 +116,60 @@ header {
 }
 
 
-@media(max-width:1000px) {
+/* Tablet */
+@media (max-width: 1000px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro-text,
+    .intro-img {
+        width: 100%;
+    }
+
+    .intro-img img {
+        height: 300px;
+    }
+
     .card-list {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media(max-width:600px) {
+/* Mobile */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .intro {
+        padding: 20px;
+    }
+
+    .intro-title h2 {
+        font-size: 18px;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+
+    .intro-img img {
+        height: 220px;
+    }
+
     .card-list {
         grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .issue-card {
+        height: auto;
+    }
+
+    .next-section a {
+        font-size: 14px;
+        padding: 8px 20px;
     }
 }
