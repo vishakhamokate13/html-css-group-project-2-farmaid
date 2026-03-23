@@ -144,3 +144,109 @@ table img {
         height: auto;
     }
 }
+
+/* DEFAULT (Laptop / Desktop ≥1200px) */
+.card-list {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* ✅ Large Laptop (992px - 1199px) */
+@media (max-width: 1199px) {
+    .card-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .intro {
+        padding: 30px;
+    }
+}
+
+/* ✅ Tablet (768px - 991px) */
+@media (max-width: 991px) {
+
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-text,
+    .intro-img {
+        width: 100%;
+    }
+
+    .intro-img img {
+        height: auto;
+    }
+
+    .card-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+}
+
+/* ✅ Mobile (≤767px) */
+@media (max-width: 767px) {
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .intro {
+        padding: 20px;
+    }
+
+    .intro-title h2 {
+        font-size: 20px;
+    }
+
+    .card-list {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .issue-card {
+        height: auto;
+    }
+
+    table th, table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+/* ✅ Extra Small Mobile (≤480px) */
+@media (max-width: 480px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .header-title {
+        flex-direction: column;
+    }
+
+    .header-title img {
+        width: 35px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto; 
+    }
+}
