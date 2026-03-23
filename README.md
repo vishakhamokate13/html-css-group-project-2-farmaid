@@ -31,7 +31,6 @@ Built using <b>HTML, CSS and JavaScript</b>.
 | Feature | Image |
 |--------|------|
 | Farm Issues | <img src="./images/farmerissue sc.png" width="150"> |
-| Recommendations | <img src="./screenshots/recommendation.png" width="150"> |
 | Expert Advice | <img src="./images/exp-sc-.png" width="150"> |
 
 ---
