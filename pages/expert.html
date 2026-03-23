@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./../css/expert.css">
     <link rel="stylesheet" href="./../css/navbar.css">
 </head>
+<!-- navbar section -->
 
 <body>
     <div class="main-container">
@@ -27,13 +28,15 @@
         </div>
     </div>
     <div class="main-heroo-section">
+        <!-- button section -->
         <div class="main-button">
             <p type="text" class="main-btnn">
-                <img src="./../images/search.png" height="20px" width="20px"/> <a href="#experts"> Search Experts </a> </p>
+                <img src="./../images/search.png" height="20px" width="20px" /> <a href="#experts"> Search Experts </a>
+            </p>
             <p type="text" class="main-btnn"><img src="./../images/callender.png" height="20px" width="20px"
-                alt="date"/> <a href="#appointment"> Book Appointment </a></p>
+                    alt="date" /> <a href="#appointment"> Book Appointment </a></p>
             <p type="text" class="main-btnn" /> <img src="./../images/main-call.png" height="20px" width="20px"
-            alt="call"/><a href="#Ask"> Get Advice</a>
+                alt="call" /><a href="#Ask"> Get Advice</a>
         </div>
         <!--main section-->
 
@@ -58,7 +61,7 @@
         <div class="expert-card">
             <h3 class="expert-name"> Soil Experts </h3>
             <p class="expert-name">Improve soil health and fertility</p>
-            <img src="./../images/exp1.jpeg" class="exp" height="280px" width="280px" alt="experts" />
+            <img src="./../images/drechan.jpeg" class="exp" height="280px" width="280px" alt="experts" />
             <span class="expert-name"> Dr.Echan </span>
             <span class="expert-name"> Experience: 10 years </span>
             <span class="expert-rate">
@@ -69,7 +72,7 @@
         <div class="expert-card">
             <h3 class="expert-name"> Crop Specialists</h3>
             <p class="expert-name">Get help for crop growth and diseases</p>
-            <img src="./../images/exp2.jpeg" class="exp" height="280px" width="280px" alt="experts" />
+            <img src="./../images/drmeena.jpeg" class="exp" height="280px" width="280px" alt="experts" />
             <span class="expert-name"> Dr.Meena Sharma </span>
             <span class="expert-name"> Experience: 12 years </span>
             <span class="expert-rate">
@@ -80,7 +83,7 @@
         <div class="expert-card">
             <h3 class="expert-name">Weather Advisors </h3>
             <p class="expert-name">Plan farming based on weather</p>
-            <img src="./../images/exp3.jpeg" class="exp" height="280px" width="280px" alt="experts" />
+            <img src="./../images/drraj.jpeg" class="exp" height="280px" width="280px" alt="experts" />
             <span class="expert-name"> Dr.Raj Vikhe</span>
             <span class="expert-name"> Experience: 20 years</span>
             <span class="expert-rate">
@@ -91,7 +94,7 @@
         <div class="expert-card">
             <h3 class="expert-name"> Organic Farming Experts </h3>
             <p class="expert-name">Learn organic farming techniques</p>
-            <img src="./../images/exp4.jpeg" class="exp" height="280px" width="280px" alt="experts" />
+            <img src="./../images/drrajesh.jpeg" class="exp" height="280px" width="280px" alt="experts" />
             <span class="expert-name"> Dr. Rajesh Patil </span>
             <span class="expert-name"> Experience: 16 years</span>
             <span class="expert-rate">
@@ -100,33 +103,38 @@
             </div>
             </div>
         
-      
+       <!-- form section -->
 <div class=" container" id="appointment">
-                    
+
                     <form>
-                         <div class="left-side">
-  <div class="contact" id="Ask">
-    <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"> Get Expert Advice 🌾</h1>
-    <p>
-      Improve your farming with smart guidance.
-      Get help for crops, soil, and weather.
-    </p>
+                        <div class="left-side">
+                            <div class="contact" id="Ask">
+                                <h1
+                                    style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+                                    Get Expert Advice 🌾</h1>
+                                <hr />
+                                <p>
+                                    Improve your farming with smart guidance.
+                                    Get help for crops, soil, and weather.
+                                </p>
 
-    <!-- Phone Number -->
-    <p class="contact" >📞 Call Us : <a href="tel:9876543210" target="_blank">9876543210</a></p>
+                                <!-- Phone Number -->
+                                <p class="contact">📞 Call Us : <a href="tel:9876543210" target="_blank">9876543210</a>
+                                </p>
 
-    <!-- Buttons -->
-    <div class="btns">
-      <button class="input">Get Advice</button>
-      <a href="tel:9876543210" class="input" target="_blank">Call Now</a>
-    </div>
-  </div>
-</div>
-<h2 class="h2"> Book Appointment </h2>
-                    <hr />
+                                <!-- Buttons -->
+                                <div class="btns">
+                                    <button class="input">Get Advice</button>
+                                    <a href="tel:9876543210" class="input" target="_blank">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- book section -->
+                        <h2 class="h2"> Book Appointment </h2>
+                        <hr />
                         <div class="row">
                             <input type="text" placeholder="Enter Name :" class="input" required />
-                            <input type="text" class="input"  for="entercity" placeholder="Enter City/village:"
+                            <input type="text" class="input" for="entercity" placeholder="Enter City/village:"
                                 required />
 
                             <input placeholder="Enter Mobile Number :" type="tel" id="enter mobile number" class="input"
@@ -137,7 +145,7 @@
                         <div class="row">
                             <label>Doctor</label>
                             <input list="Choosedr" value="Dr.Echan" required />
-                            <datalist id="Choosedr" >
+                            <datalist id="Choosedr">
 
                                 <option>Dr. Echan</option>
                                 <option>Dr. Meena Sharma</option>
@@ -179,6 +187,7 @@
 
                             <button type="submit" class="confirm-btn"> Submit </button>
                         </div>
+                        <!-- feedback section -->
                         <div class="feedback">
                             <h2 class="h2"> Feedback</h2>
                             <label for="fileinput"> upload audio : </label>
@@ -189,12 +198,11 @@
                             <br /> <br />
                             <label for="fileinput"> upload video : </label>
                             <input type="file" id="fileinput" accept="video/*" required />
-                            <br />  
-                            <br /> 
-                        
-                        </div>
-                    </form>
-</div>         
-</body>
+                            <br />
+                            <br />
 
+                        </div>
+                   </form>
+        </div>
+</body>
 </html>
