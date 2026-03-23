@@ -1,13 +1,13 @@
-/* FOOTER */
+
 .footer-container {
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    background-color: #878b87;
+    background-color: #333;
     color: white;
 }
 
-/* SECTIONS */
+
 .footer-section-1,
 .footer-section-2,
 .footer-section-3,
@@ -17,8 +17,6 @@
     gap: 15px;
     width: 25%;
 }
-
-/* LOGO */
 .logo-container {
     display: flex;
     align-items: center;
@@ -29,7 +27,7 @@
     font-size: 22px;
 }
 
-/* SOCIAL ICONS */
+
 .social-icon-container {
     display: flex;
     gap: 15px;
@@ -44,26 +42,23 @@
     cursor: pointer;
 }
 
-/* LINKS */
+
 .menu-subitem {
     text-decoration: none;
     color: white;
     font-size: 14px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
 
-/* CONTACT */
+
+
 .contact-item {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
 
     .footer-container {
