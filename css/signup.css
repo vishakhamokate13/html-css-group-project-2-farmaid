@@ -1,3 +1,192 @@
-body{
-    background-color: lightgrey;
+body {
+  background: #192546;
+}
+.div1{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #192546;
+}
+.navbar-main-container {
+    width: 100%;
+    background:#192546;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.project-name {
+    color: white;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+.nav-links-container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.auth-links-container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.menu-item {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s ease;
+}
+.menu-item:hover {
+    color: orange;
+}
+.div2{
+  background-color:#d9e8f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ .container {
+  width: 900px;
+  height: 460px;
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+/* Left Section */
+.left {
+  width: 50%;
+  padding: 15px;
+}
+.heading-container {
+  font-size: 32px;
+  margin-bottom: 3px;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+}
+.left h2 {
+  margin-bottom: 5px;
+}
+
+.left p {
+  margin-bottom: 10px;
+  color: gray;
+}
+.social-btn {
+  width: 100%;
+  padding: 10px;
+  background: #f3f3f3;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.google-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-right: 8px;
+  color: inherit;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.fb-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-right: 8px;
+  color: inherit;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: gray;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.forgot {
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #192546;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background: #0f1a33;
+}
+/* Right Section */
+.right {
+  width: 50%;
+  background: url("https://img.freepik.com/free-vector/fishing-night-near-forest-with-boat-rod-flat-vector-illustration_98292-3107.jpg?semt=ais_hybrid&w=740&q=80")
+    no-repeat center/cover;
+  position: relative;
+  color: white;
+  padding: 40px;
+}
+.right-text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 75%;
+}
+.right-text h2 {
+  margin-bottom: 10px;
+}
+.right-text p {
+  font-size: 14px;
+  color: #dcdcdc;
+}
+.signup-link {
+  color: white;
+  text-decoration: none;
 }

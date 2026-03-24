@@ -1,5 +1,5 @@
 .main-container{
-    display: flex;
+display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
@@ -76,3 +76,73 @@ height: auto;
     
 }
 
+@media (max-width: 992px) {
+
+    .main-container{
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .main-logo-img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .farm, .aid{
+        font-size: 24px;
+    }
+
+    .nav-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .menu{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .main-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .lmg-contanair{
+        justify-content: center;
+    }
+
+    .main-logo-img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .farm, .aid{
+        font-size: 20px;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .menu{
+        font-size: 16px;
+        width: 100%;
+        padding: 8px;
+    }
+
+    .menu:hover{
+        width: 80%;
+    }
+
+    .lgin{
+        padding: 6px 12px;
+    }
+}

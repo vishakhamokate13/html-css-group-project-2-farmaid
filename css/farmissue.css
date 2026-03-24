@@ -1,3 +1,175 @@
-h1{
-    padding: auto;
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background:linear-gradient(135deg,#d4fc79,#96e6a1);
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    color:black;
+}
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-title img {
+    width: 45px;
+}
+
+.intro {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+    background: white;
+}
+
+.intro-text {
+    width: 55%;
+}
+
+.intro-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.intro-title img {
+    width: 40px;
+}
+
+.intro-img {
+    width: 45%;
+}
+.intro-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-list {
+    list-style: none;
+    margin: 0;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+
+.issue-card {
+    background-color: #FFFAEC;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 380px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.issue-card:hover {
+    transform: translateY(-8px);
+}
+
+.issue-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 15px;
+}
+
+.next-section {
+    text-align: center;
+    margin: 40px;
+}
+
+.next-section a {
+    margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(24, 22, 22);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  display: inline;
+  outline: none;
+  border: none;
+  margin-right: 30px;
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: 600;
+  text-decoration: none;
+   background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
+}
+.next-section a:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Tablet */
+@media (max-width: 1000px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro-text,
+    .intro-img {
+        width: 100%;
+    }
+
+    .intro-img img {
+        height: 300px;
+    }
+
+    .card-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .intro {
+        padding: 20px;
+    }
+
+    .intro-title h2 {
+        font-size: 18px;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+
+    .intro-img img {
+        height: 220px;
+    }
+
+    .card-list {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .issue-card {
+        height: auto;
+    }
+
+    .next-section a {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
 }
