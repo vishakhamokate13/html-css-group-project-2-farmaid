@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI';
-    background: linear-gradient(135deg, #d4fc79, #96e6a1);
+    background: lightgreen;
     display: block;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@ input[type="file"] {
 .card-right button {
     width: 100%;
     padding: 12px;
-    background: #8a5cf5;
+    background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
     color: white;
     border: none;
     border-radius: 8px;
@@ -244,5 +244,101 @@ input[type="file"] {
     .section-body input,.section-body textarea {
         width: 100%;
         margin-right: 0;
+}
+/* ================= MOBILE (≤480px) ================= */
+@media screen and (max-width:480px){
+
+    .main-card{
+        display:flex;
+        flex-direction: column;
+        width: 95%;
+        margin-top: 90px;
+    }
+
+    .card-left{
+        width: 100%;
+        height: 200px;
+    }
+
+    .card-right{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .name-box{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-container{
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-menu{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .menu{
+        font-size: 16px;
+    }
+
+    .map iframe{
+        height: 180px;
+    }
+}
+
+
+/* ================= TABLET (481px – 768px) ================= */
+@media screen and (max-width:768px){
+
+    .main-card{
+        display:flex;
+        flex-direction: column;
+        width:95%;
+        margin-top: 90px;
+    }
+
+    .card-left{
+        width:100%;
+        height: 250px;
+    }
+
+    .card-right{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .name-box{
+        flex-direction: column;
+    }
+
+    .nav-menu{
+        gap: 15px;
+    }
+}
+
+
+/* ================= LAPTOP (769px – 1024px) ================= */
+@media screen and (max-width:1024px){
+
+    .main-card{
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-left{
+        width: 100%;
+    }
+
+    .card-right{
+        padding: 20px;
+    }
+
+    .nav-menu{
+        gap: 20px;
     }
 }

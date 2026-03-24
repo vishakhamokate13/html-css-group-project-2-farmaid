@@ -1,0 +1,321 @@
+body{
+    background: linear-gradient(135deg, #d0e3a4, #9ec7a3);
+}
+.container {
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.left-card {
+    background: #faf8d7;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.left-card .avatar {
+    width: 280px;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+.left-card h2 {
+    color: #000;
+    margin-bottom: 15px;
+    font-size: 30px;
+    /* bigger text */
+}
+
+.left-card p {
+    font-size: 18px;
+    color: #000;
+}
+
+
+.card {
+    background-color:  #FFFAEC; 
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.social-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.social-btn {
+    width: 30%;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.google-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: inherit;
+
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: inherit;
+}
+
+
+
+.social-box {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-btn {
+    flex: 1;
+    background: #edebeb;
+    border: none;
+    padding: 12px;
+    color: #0d0c0c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.social-btn:hover {
+    background: #d7d2d2;
+}
+
+
+.or {
+    text-align: center;
+    color: #aaa;
+    margin: 12px 0 20px;
+    margin-bottom: 0px;
+}
+
+
+form input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 14px;
+    background: #edebeb;
+    border: none;
+    border-radius: 10px;
+    color: #030303;
+    font-size: 15px;
+
+}
+
+.name-group {
+    display: flex;
+    gap: 12px;
+}
+
+
+.note {
+    font-size: 13px;
+    color: #bbb;
+    margin-bottom: 12px;
+    display: block;
+}
+
+
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    background-image: linear-gradient(to right, #117a47 0%,
+     #8ed40c 51%, #0dc6cc 100%);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 1px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.signup-btn:hover {
+    background: #0443b0;
+}
+
+.signup-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+
+.terms {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 12px;
+}
+
+.terms a {
+    color: #0930de;
+}
+
+
+.login-link {
+    text-align: center;
+    color: #bbb;
+    margin-top: 8px;
+}
+
+.login-link a {
+    color: #0930de;
+}
+
+.login-link :hover {
+    text-decoration: underline;
+}
+/* ================= MOBILE (≤480px) ================= */
+@media screen and (max-width:480px){
+
+    .login-container{
+        height: auto;
+        padding: 100px 10px 30px;
+    }
+
+    .login-box{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .login-box h2{
+        font-size: 20px;
+    }
+
+    .login-box p{
+        font-size: 12px;
+    }
+
+    .login-box input{
+        padding: 8px;
+    }
+
+    .login-box button{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Navbar responsive */
+    .main-container{
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .menu{
+        font-size: 14px;
+    }
+
+    /* Footer responsive */
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+
+/* ================= TABLET (481px – 768px) ================= */
+@media screen and (max-width:768px){
+
+    .login-container{
+        height: auto;
+        padding-top: 100px;
+    }
+
+    .login-box{
+        width: 80%;
+    }
+
+    .main-container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+
+/* ================= LAPTOP (769px – 1024px) ================= */
+@media screen and (max-width:1024px){
+
+    .login-box{
+        width: 60%;
+    }
+
+    .nav-menu{
+        gap: 20px;
+    }
+
+    .footer-container{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}

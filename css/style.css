@@ -1,6 +1,11 @@
-*{
+*body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: linear-gradient(135deg, #d0e3a4, #9ec7a3)
 }
 
 .main-hero-section{
@@ -35,17 +40,16 @@
      padding-left: 10px;
     font-weight: 600;
     font-family: 'poppins',sans-serif;
-    color: navy;
+    color: rgb(13, 13, 15);
 }
 .issue-btn{
-margin-left: 50px;
+margin-left: 80px;
 }
-.weather-btn{
-    margin-left: 50px;
+
     
-}
+
 .btns{
-    margin-left: 40px;
+    margin-left: 150px;
     
 }
 .issue-btn{
@@ -112,15 +116,18 @@ margin-left: 50px;
     justify-content: space-around;
     font-size: 20px;
     font-weight: 600;
+    align-items: center;
+    
+    gap: 10px;
     
 }
 .high-text{
     
     padding: 9px;
+    gap: 5px;
     margin-top: 5px;
-    background-color:  rgb(196, 149, 56);
-    border-radius: 2px 22px 2px 22px;
-    box-shadow: 2px 1px 4px 2px black;
+    
+   
 }
 .platform-hrading{
     text-align: center;
@@ -139,13 +146,14 @@ margin-left: 50px;
 }
 .sub-card1{
     border: 1px solid #e0e0e0;
-    background-color: #ffffff;
+    background-color: #e3f2fd; 
     border-radius: 15px;
     padding: 30px 20px;
     width: 250px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     transition: tranform 0.3s ease, box-shadow 0.3 ease;
+    background-color: #FFFAEC ;
 
 }
 
@@ -163,13 +171,16 @@ margin-left: 50px;
 }
 .stpes-cards{
     border: 1px solid #e0e0e0;
-    background-color: #ffffff;
+   background-color:  #FFFAEC; 
     border-radius: 15px;
     padding: 30px 20px;
     width: 250px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     transition: tranform 0.3s ease, box-shadow 0.3 ease;
+    background-color: #FFFAEC ;
+
+
 
 }
 .stpes-cards:hover{
@@ -183,3 +194,315 @@ margin-left: 50px;
     margin-top: 20px;
     
 }
+<<<<<<< HEAD
+.body{
+    background-color: lightgreen;
+}
+=======
+.isuue-contanair{
+     display: grid;
+     grid-template-columns:  repeat(3,1fr);
+     gap: 20px;
+     padding: 20px;
+     max-width: 900px;
+     margin: 0 auto;
+}
+.section-heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'poppins',sans-serif;
+}
+.recommendations-preview {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.recommendation-card {
+    background-color: #e3f2fd; /* Light Blue background like image */
+    border-radius: 15px;
+    padding: 45px 60px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Icon/Text left mein, Button right mein */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.rec-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rec-icon {
+    font-size: 40px;
+    color: #2e7d32; /* Green icon color */
+    
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.rec-text h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.rec-text p {
+    font-size: 14px;
+    color: #666;
+    max-width: 400px;
+    font-family: 'poppins',sans-serif;
+}
+.rcom-prewi-heading{
+    font-family: 'poppins',sans-serif;
+    padding-bottom: 10px;
+
+}
+
+/* Button Styling */
+.view-btn {
+    background-color: #1976d2; /* Main Blue color */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    transition: background 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: #1565c0;
+}
+
+
+/* --- Blue CTA Banner --- */
+.footer-cta {
+    background-color: #94a7bc; /* Bright Blue like image */
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-cta h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-explore, .btn-contact {
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn-explore:hover{
+    
+    color:black;
+    box-shadow: 1px 2px rgb(143, 131, 131);
+
+}
+ .btn-contact:hover{
+   
+    color:black;
+    box-shadow: 1px 2px rgb(143, 131, 131);
+}
+
+.btn-explore {
+    background: white;
+    color: #007bff;
+}
+
+.btn-contact {
+    background: #ff9800; /* Orange color like image */
+    color: white;
+}
+
+/* --- Main Footer (Dark Section) --- */
+.main-footer {
+    background-color: #2c3237; /* Dark Navy Blue */
+    color: #e0e0e0;
+
+    padding: 30px 0 10px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.footer-logo {
+    color: white;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-col h4 {
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.call{
+    color: white;
+}
+.social-icons a {
+    color: white;
+}
+
+/* Footer Copyright bar */
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #1b263b;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
+.expert-preview {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.expert-card {
+    background-color: #e3f2fd;
+    border: 1px solid #f0f0f0;
+    border-radius: 15px;
+    padding: 35px 60px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Isse image left aur button right mein set honge */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Light shadow like image */
+}
+
+.exp-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.exp-icon {
+    font-size: 45px;
+    color: #2e7d32; /* Green icon color */
+    background: #e8f5e9; /* Light green background circle */
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+
+.exp-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.exp-text h3 {
+    font-size: 20px;
+    
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.exp-text p {
+    font-size: 14px;
+    
+    max-width: 450px;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+/* Button Styling */
+.consult-btn {
+    background-color: #1976d2; /* Main Blue color */
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: background 0.3s ease;
+    display: inline-block;
+}
+
+.consult-btn:hover {
+    background-color: #1565c0;
+}
+
+.expert-head{
+    font-family: 'poppins',sans-serif;
+    padding-bottom: 10px;
+    font-weight: 600;
+
+}
+
+
+>>>>>>> b3c77e17f6102c3cb9be46145fee0f140c8c756d
