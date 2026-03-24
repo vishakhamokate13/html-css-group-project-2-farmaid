@@ -139,27 +139,8 @@
 
                             <input placeholder="Enter Mobile Number :" type="tel" id="enter mobile number" class="input"
                                 type="number" required />
-
-                        </div>
-                        <br />
-                        <div class="row">
-                            <label>Doctor</label>
-                            <input list="Choosedr" value="Dr.Echan" required />
-                            <datalist id="Choosedr">
-
-                                <option>Dr. Echan</option>
-                                <option>Dr. Meena Sharma</option>
-                                <option>Dr.Raj Vikhe</option>
-                                <option>Dr. Rajesh Patil</option>
-                            </datalist>
-                            <br />
-                            <div class="row">
-                                <label>Appointment Date</label>
-                                <input type="date" class="input" required />
-                                <br />
-                                <br />
-                                <label> Timing</label>
-                                <input list="Choosetime" required />
+                        
+                                <input list="Choosetime" class="input"  placeholder="Timing"  required />
                                 <datalist id="Choosetime">
                                     < <option> Timing </option>
                                         <option> 9:00 AM </option>
@@ -171,18 +152,45 @@
                                         <option> 4:00 PM </option>
                                         <option> 5:00 PM </option>
                                 </datalist>
+
+
+                        </div>
+                   <br />
+                        <div class="row">
+                                    <input type="email"  id="input email"  placeholder="Enter Email"  class="input" required />
+                          
+                            <input list="Choosedr" value="Dr.Echan" class="input"  placeholder=" Choose experts" />
+                            <datalist id="Choosedr">
+
+                                <option>Dr. Echan</option>
+                                <option>Dr. Meena Sharma</option>
+                                <option>Dr.Raj Vikhe</option>
+                                <option>Dr. Rajesh Patil</option>
+                            </datalist>
+                            <br />
+                            <div class="row">
+                                <label>Add Date</label>
+                                <input type="date" class="input" required />
+                                <br />
+                                <br />
+                                
+                                
+
                             </div>
                         </div>
                         <br />
                         <br />
                         <div class="row">
+                            
                             <a href="upi://pay?pa=cinema@upi&pn=complex%20Cinema&cu=INR" target="_blank">
                                 <b> Click here to pay via UPI 50Rs for conform appointment</b>
                                 <br />
+
                                 <br />
                                 <label for="photo"> Upload Your Payment Photo :</label>
                                 <input type="file" id="photo" accept="image/*" required />
                             </a>
+                          
                             <button class="confirm-btn">Confirm Date and Time</button>
 
                             <button type="submit" class="confirm-btn"> Submit </button>

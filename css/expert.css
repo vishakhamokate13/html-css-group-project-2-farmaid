@@ -1,7 +1,7 @@
 body {
      margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg,#d4fc79,#96e6a1);
+  background: linear-gradient(135deg, #d0e3a4, #9ec7a3)
    
 }
 
@@ -21,7 +21,8 @@ body {
     padding-top: 10px;
     text-decoration: none;
     color: black;
-    background:linear-gradient(135deg,#d4fc79,#d9fe81);
+    
+   background-color:  #d0e3a4;
     gap: 5px;
     display: flex;
     flex-direction: row;
@@ -46,6 +47,7 @@ body {
     border-radius: 35px;
     text-align: center;
     color: black;
+    background-color: white;
 
 }
 
@@ -58,6 +60,7 @@ body {
     outline: none;
     text-align: center;
     color: black;
+    background-color: white;
 }
 
 .main-btnn:hover {
@@ -352,8 +355,9 @@ align-items: center;
 
 .row {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     color: black;
+
 }
 
 
