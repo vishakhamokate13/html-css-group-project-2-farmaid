@@ -45,6 +45,7 @@ body {
     margin-bottom: 3px;
     border-radius: 35px;
     text-align: center;
+    color: black;
 
 }
 
@@ -56,12 +57,13 @@ body {
     border: none;
     outline: none;
     text-align: center;
-    color: rgb(8, 7, 7);
+    color: black;
 }
 
 .main-btnn:hover {
     background-position: right center;
-    background-color: white;
+      background-color:  rgb(196, 149, 56);
+      color: white;
     text-decoration: none;
 }
 
@@ -73,8 +75,7 @@ body {
 
 .farmer:hover {
     border-radius: 20px;
-    box-shadow: 0px 4px 8px rgba(157, 245, 153, 0.78);
-    border: solid rgb(6, 82, 6);
+    box-shadow: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%); 
     color: white;
     transition: 3s;
 }
@@ -116,24 +117,20 @@ body {
 .expert-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 10px;
     margin-left: 10px;
 }
 
 .expert-card {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.22);
     border-radius: 43px;
     height: 500px;
     background-color: white;
     margin-top: 20px;
-
+align-items: center;
 }
 
-.expert-card {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.22);
-    background-color: white;
-}
 
 .expert-card:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
@@ -143,8 +140,19 @@ body {
 }
 
 .exp {
-    border-radius: 20px;
+    border-radius: 15px;
     border: 1px black;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+
+
+}
+.exp:hover {
+ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+ transition: 3s;
 
 }
 
@@ -166,7 +174,7 @@ body {
 }
 
 .expert-rate:hover {
-    background: linear-gradient(135deg, #1E88E5 0%, #aec795 100%);
+    background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
     transition: 3s;
 
 }
@@ -181,14 +189,12 @@ body {
     height: 30px;
     width: 50px;
     margin-left: 22px;
-}
-
-.farmer:hover {
     border-radius: 20px;
-    box-shadow: 0px 4px 8px rgba(157, 245, 153, 0.78);
-    border: solid rgb(6, 82, 6);
-    color: white;
-    transition: 3s;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+.form-section:hover {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  
+     
 }
 
 .call-image {
@@ -203,11 +209,13 @@ body {
 
 .call-btn {
     text-align: center;
+    justify-content: space-around;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 
 }
 
 .call-btn :hover {
-    box-shadow: 3px 4px 6px rgba(188, 250, 188, 0);
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
 
 }
 
@@ -245,24 +253,28 @@ body {
     color: white;
     border: none;
     border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .button:hover {
     background-position: right center;
     color: black;
     text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
 }
 
 .container {
     background: white;
     padding: 30px;
-    border-radius: 10px;
+    border-radius:60px;
     width: 1150px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
     margin-left: 20px;
     margin-top: 30px;
 }
-
+.container:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+}
 
 
 .h2 {
@@ -301,7 +313,7 @@ body {
     border: 1PX solid #CCC;
     border-radius: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: linear-gradient(to right, #c1c5b1 0%, #cdc3fb 45%, #aec545 100%);
+  background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
     color: black;
     text-align: center;
 }
@@ -312,19 +324,21 @@ body {
     border: 1PX solid #CCC;
     border-radius: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: linear-gradient(to right, #c1c5b1 0%, #cdc3fb 45%, #aec545 100%);
-    color: black;
+ background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
+     color: black;
     text-align: center;
 }
 
 .input:hover {
-    background-image: linear-gradient(to right, #c1c5b1 0%, #4a29e1 45%, #aec545 100%);
     color: white;
+   background-position: right center;
+  text-decoration: none;
     transition: 3s;
 }
 .inputs:hover {
-    background-image: linear-gradient(to right, #c1c5b1 0%, #4a29e1 45%, #aec545 100%);
-    color: white;
+   color: white;
+   background-position: right center;
+  text-decoration: none;
     transition: 3s;
 }
 
@@ -348,7 +362,8 @@ body {
     height: 40px;
     margin-top: 30px;
     padding: 10px;
-    background-image: linear-gradient(to right, #c1c5b1 0%, #694bef 45%, #aec545 100%);
+   background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
     color: white;
     border: none;
     border-radius: 50px;
@@ -359,20 +374,25 @@ body {
 }
 
 .confirm-btn:hover {
-    background-image: linear-gradient(to right, #c1c5b1 0%, #4a29e1 45%, #aec545 100%);
     color: black;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: green;
+   background-position: right center;
+  text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     transition: 3s;
 
 }
 
 .feedback {
-    width: 100%;
+    width: 90%;
+    height: 180px;
     padding: 10px;
-    background-image: linear-gradient(to right, #c1c5b1 0%, #694bef 45%, #aec545 100%);
+    padding-left: 110px;
+   background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 26px;
     cursor: pointer;
     font-size: 16px;
     text-align: center;
@@ -384,9 +404,12 @@ body {
 .feedback:hover {
     color: black;
     border: green;
-    background-image: linear-gradient(to right, #c1c5b1 0%, #836af3 45%, #414d0b 100%);
-
+   background-position: right center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+  text-decoration: none;
 }
+
+
 
 .contact {
     margin: 10px 0;
@@ -418,7 +441,7 @@ body {
 
 .call-btn {
     padding: 5px 5px;
-    background-image: linear-gradient(to right, #c1c5b1 0%, #694bef 45%, #aec545 100%);
+  background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
     color: white;
     border-radius: 6px;
     text-decoration: none;
@@ -426,9 +449,11 @@ body {
 }
 
 .call-btn:hover {
-    background-image: linear-gradient(to right, #c1c5b1 0%, #3e1dd5 59%, #414d0b 100%);
-    color: white;
+ background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
+
 .nav-buttons {
     display: flex;
     justify-content: space-between;
@@ -508,6 +533,159 @@ body {
         margin-left: 0;
     }
 }
+/* ================= MOBILE (max-width: 600px) ================= */
+@media (max-width: 600px) {
+
+    .main-heroo-section {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .main-button {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .main-btn,
+    .main-btnn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-containerr {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-heading-1 {
+        font-size: 26px;
+    }
+
+    .main-heading-2 {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .expert-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .expert-card {
+        width: 95%;
+        height: auto;
+    }
+
+    .consult-info {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .container {
+        width: 95%;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .btns {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .call-image {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .main-heroo-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-button {
+        width: 95%;
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .main-containerr {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-heading-1 {
+        font-size: 24px;
+    }
+
+    .main-heading-2 {
+        width: 90%;
+        font-size: 16px;
+        height: auto;
+    }
+
+    .expert-container {
+        flex-direction: column;   /* cards niche */
+        align-items: center;
+    }
+
+    .expert-card {
+        width: 90%;
+        height: auto;
+    }
+
+    .consult-info {
+        margin-left: 0;
+        width: 90%;
+        text-align: center;
+        height: auto;
+    }
+
+    .container {
+        width: 90%;
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .btns {
+        flex-direction: column;
+        margin-left: 0;
+        height: auto;
+    }
+
+    .main-button {
+        width: 100%;
+    }
+
+    .search {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .feedback {
+        width: 90%;
+        padding-left: 0;
+        height: auto;
+    }
+}
 @media (min-width: 601px) and (max-width: 1024px) {
 
     .main-heroo-section {
@@ -515,8 +693,7 @@ body {
     }
 
     .main-button {
-        width: 95%;
-        margin-left: 0;
+        width: 100%;
     }
 
     .expert-container {
@@ -534,7 +711,7 @@ body {
     }
 
     .consult-info {
-        margin-left: 2;
+        margin-left: 0;
         width: 90%;
         text-align: center;
     }
