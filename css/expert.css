@@ -25,7 +25,7 @@ body {
     gap: 5px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border: none;
     outline: none;
     margin-top: 5px;
@@ -59,16 +59,15 @@ body {
     outline: none;
     text-align: center;
     color: black;
-    background-color: white;
+ background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
   
 }
 
 .main-btnn:hover {
     background-position: right center;
-      background-color:  rgb(196, 149, 56);
       color: white;
-    text-decoration: none;
      border: 1px solid white;
+     background-image: linear-gradient(to right, #1da865 0%, #8ac816 51%, #0bb6bc 100%);
      
 }
 
@@ -84,7 +83,7 @@ body {
       box-shadow: 0px 4px 8px rgba(155, 242, 161, 0.8); 
     color: white;
     transition: 3s;
-    border: solid white;
+    border:  1px solid white;
 }
 
 .main-containerr {
@@ -133,9 +132,9 @@ body {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.22);
     border-radius: 43px;
     height: 500px;
-    background-color: white;
     margin-top: 20px;
 align-items: center;
+background-color:  #FFFAEC;
 }
 
 
@@ -275,7 +274,7 @@ align-items: center;
 }
 
 .container {
-    background: white;
+    background-color:  #FFFAEC;
     padding: 30px;
     border-radius:60px;
     width: 1150px;
@@ -325,7 +324,7 @@ align-items: center;
     width: 100%;
     height: 30px;
     padding: 10px;
-    border: 1PX solid #CCC;
+    border: 1PX solid white;
     border-radius: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
@@ -385,7 +384,6 @@ align-items: center;
     padding: 10px;
    background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
-    
     color: white;
     border: none;
     border-radius: 50px;
@@ -495,7 +493,15 @@ align-items: center;
     text-decoration: none;
     color: white;
      background-position: right center;
-    background: linear-gradient(to right, #11998e, #38ef7d);
+    background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
+
+}
+.nav-buttons a:hover {
+ background-position: right center;
+   background-image: linear-gradient(to right, #117a47 0%, #7ab40e 51%, #0cb2b8 100%);
+  text-decoration: none;
+  color: black;
+  transition: 2s;
 }
 /* 📱 Mobile View */
 @media (max-width: 600px) {
